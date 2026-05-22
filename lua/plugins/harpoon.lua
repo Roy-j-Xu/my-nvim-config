@@ -20,13 +20,6 @@ return {
 
         for i = 1, 9 do
             table.insert(keys, {
-                "<leader>t" .. i,
-                function()
-                    harpoon_term.gotoTerminal(i)
-                end,
-                desc = "Go to terminal " .. i,
-            })
-            table.insert(keys, {
                 "<leader>" .. i,
                 function()
                     harpoon_ui.nav_file(i)

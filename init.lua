@@ -29,5 +29,7 @@ vim.opt.wrap = false
 
 vim.opt.autoread = true
 
-vim.cmd.colorscheme("catppuccin")
+vim.opt.cursorline = true
+
+vim.cmd.colorscheme("retrobox")
 

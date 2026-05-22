@@ -1,6 +1,7 @@
 local enabled_lsp = {
     "rust_analyzer",
     "gopls",
+    "clangd",
 }
 
 vim.lsp.enable(enabled_lsp)
